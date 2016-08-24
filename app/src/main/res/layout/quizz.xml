@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/Piket"
+        android:layout_gravity="right"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#fff"
+        android:textSize="60dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:text="Duke marre pyetjen ..."
+        android:id="@+id/Pyetja"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Alternativa 1"
+        android:id="@+id/buttonAlt1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif-lighter"
+        android:layout_weight="0.05"
+        android:enabled="false"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Alternativa 2"
+        android:id="@+id/buttonAlt2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif-lighter"
+        android:layout_weight="0.05"
+        android:enabled="false"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Alternativa 3"
+        android:id="@+id/buttonAlt3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif-lighter"
+        android:layout_weight="0.05"
+        android:enabled="false"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Alternativa 4"
+        android:id="@+id/buttonAlt4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif-lighter"
+        android:layout_weight="0.05"
+        android:enabled="false"/>
+
+</LinearLayout>
