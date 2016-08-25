@@ -37,6 +37,7 @@ public class QuizzActivity extends BaseActivity implements RestRequestCompletedD
         alt2 = (Button) findViewById(R.id.buttonAlt2);
         alt3 = (Button) findViewById(R.id.buttonAlt3);
         alt4 = (Button) findViewById(R.id.buttonAlt4);
+
         alt1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
